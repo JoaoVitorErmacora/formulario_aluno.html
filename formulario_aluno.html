@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="#">
+      <label for="nome">Nome:</label>
+      <input
+        type="text"
+        name="nome"
+        id="nome"
+        placeholder="Digite seu nome"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label for="idade">Idade:</label>
+      <input type="number" name="idade" id="idade" required />
+
+      <br />
+      <br />
+
+      <label for="imgDocumento">Imagem do Documento:</label>
+      <input type="file" name="imgDocumento" id="imgDocumento" required />
+
+      <br />
+      <br />
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        name="email"
+        id="email"
+        placeholder="Digite seu email"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label for="password">Senha:</label>
+      <input type="password" name="password" id="password" required />
+
+      <br />
+      <br />
+
+      <label for="nascimento">Data de Nascimento:</label>
+      <input
+        type="date"
+        id="nascimento"
+        name="nascimento"
+        min="1907-03-04"
+        max="2024-09-09"
+        required
+      />
+
+      <br />
+      <br />
+
+      <label for="phone">Telefone:</label>
+      <input
+        type="tel"
+        name="phone"
+        id="phone"
+        minlength="11"
+        maxlength="15"
+        required
+      />
+
+      <br />
+      <br />
+
+      <input type="radio" name="sexo" id="feminino" value="feminino" />
+      <label for="feminino">Feminino</label>
+
+      <input type="radio" name="sexo" id="masculino" value="masculino" />
+      <label for="masculino">Masculino</label>
+
+      <br />
+      <br />
+
+      <label for="estado">Estado:</label>
+      <select name="estado" id="estado">
+        <option value="acre">Acre(AC)</option>
+        <option value="alagoas">Alagoas(AL)</option>
+        <option value="amapa">Amapá(Ap)</option>
+        <option value="amazonas">Amazonas (AM)</option>
+        <option value="bahia">Bahia(BA)</option>
+        <option value="ceara">Ceará(CE)</option>
+        <option value="distrito federal">Distrito Federal(DF)</option>
+        <option value="espirito santo">Espírito Santo(ES)</option>
+        <option value="goias">Goiás(GO)</option>
+        <option value="maranhao">Maranhão(MA)</option>
+        <option value="mato grosso">Mato Grosso(MT)</option>
+        <option value="mato grosso do sul">Mato Grosso do Sul(MS)</option>
+        <option value="minas gerais">Minas Gerais(MG)</option>
+        <option value="para">Pará(PA)</option>
+        <option value="paraiba">Paraíba(PB)</option>
+        <option value="parana">Paraná(PR)</option>
+        <option value="pernambuco">Pernambuco(PE)</option>
+        <option value="piaui">Piauí(PI)</option>
+        <option value="rio de janeiro">Rio de Janeiro (RJ)</option>
+        <option value="rio grande do norte">Rio Grande do Norte(RN)</option>
+        <option value="rio grande do sul">Rio Grande do Sul(RS)</option>
+        <option value="rondonia">Rondônia(RO)</option>
+        <option value="roraima">Roraima(RR)</option>
+        <option value="santa catarina">Santa Catarina(SC)</option>
+        <option value="sao paulo">São Paulo(SP)</option>
+        <option value="sergipe">Sergipe(SE)</option>
+        <option value="tocantis">Tocantis(TO)</option>
+      </select>
+
+      <br />
+      <br />
+
+      <fieldset>
+        <legend>Recado</legend>
+        <label for="recado"></label>
+        <textarea
+          name="recado"
+          id="recadp"
+          placeholder="Deixe um recado aqui!"
+          rows="10"
+          cols="30"
+        ></textarea>
+      </fieldset>
+
+      <br />
+      <br />
+    </form>
+  </body>
+</html>
+
